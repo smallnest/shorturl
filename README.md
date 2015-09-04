@@ -1,2 +1,3 @@
-# shorturl
-a scalable high performance ShortURL server
+# shorturl server
+A scalable high performance ShortURL server
+![](documents/demo.gif)

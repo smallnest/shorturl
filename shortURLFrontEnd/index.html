@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <title>uriDB短链接</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen" />
+	<link rel="stylesheet" href="assets/css/shorturl.css" media="screen" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="../" class="navbar-brand">uriDB</a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="http://colobu.com/">博客</a>
+          </li>
+          <li>
+            <a href="https://github.com/smallnest/">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container centering">
+    <div class="bs-form-section">
+      <div class="row">
+	  
+        <div class="col-lg-6 col-lg-offset-3">
+          <form class="bs-component">
+            <div class="form-group">
+              <div class="input-group">
+              <span class="url-icon input-group-addon">URL</span> 
+              <input class="form-control" type="text"  id="input_url" /> 
+				<span class="input-group-btn">
+                      <button class="btn btn-default" type="button" id="btn_gen">生成</button>
+                 </span>
+			</div>
+            </div>
+            <div style="display: none;" id="source-button" class="btn btn-primary btn-xs">&lt; &gt;</div>
+          </form>
+        </div>
+      </div>
+	  <div class="row">
+	  <div class="col-lg-6 col-lg-offset-3">
+		<div class="alert  alert-success result" style="display:none" id="result_panel">
+		  <strong>短链接地址为: &nbsp;&nbsp;&nbsp;</strong>  <a href="http://uridb.com/" class="alert-link" id="shorturl_result">http://uridb.com/</a>
+		</div>
+	  </div>
+	  </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-12"></div>
+      </div>
+    </footer>
+  </div>
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
+  <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="assets/js/shorturl.js"></script>
+  <script >
+
+  </script>
+  </body>
+</html>
